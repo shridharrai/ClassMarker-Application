@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+	<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="teacher" namespace="/" extends="struts-default">
+	
+	<action name="registerteacher" class="com.classmarker.teacher.actions.RegisterTeacher" method="addteacher">
+	<result name="success">/login.jsp</result>
+	<result name="fail">/registerteacher.jsp</result>
+	</action>
+	<action name="showbranchsemestersubject" class="com.classmarker.teacher.actions.RegisterTeacher" method="fetchbranchsemsubject">
+	<result name="success">/registerteacher.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="showgroupstudent" class="com.classmarker.teacher.actions.Group" method="fetchstudent">
+	<result name="success">/group.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action> 
+	<action name="addgroup" class="com.classmarker.teacher.actions.Group" method="addgroup">
+	<result name="success">/group.jsp</result>
+	<result name="fail">/group.jsp</result>
+	</action>
+	<action name="showgroup" class="com.classmarker.teacher.actions.Group" method="fetchgroup">
+	<result name="success">/group.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="showbranchsemsubjectgroup" class="com.classmarker.teacher.actions.Test" method="fetchbranchsemsubjectgroup">
+	<result name="success">/addtest.jsp</result>
+	<result name="fail">/dashboard.jsp</result>
+	</action>
+	<action name="addtest" class="com.classmarker.teacher.actions.Test" method="addtest">
+	<result name="success">/addquestion.jsp</result>
+	<result name="fail">/dashboard.jsp</result>
+	</action>
+	<action name="addquestion" class="com.classmarker.teacher.actions.Question" method="addquestion">
+	<result name="success">/addquestion.jsp</result>
+	<result name="fail">/addtest.jsp</result>
+	</action>
+	<action name="teacherlanding" class="com.classmarker.teacher.actions.LandingTeacher" method="fetch">
+	<result name="success">/teacherlanding.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="AddQuestionBank" class="com.classmarker.teacher.actions.Question" method="questionbank">
+	<result name="success">/addquestionbank.jsp</result>
+	<result name="fail">/addtest.jsp</result>
+	</action>
+	<action name="AddQuestionFromBank" class="com.classmarker.teacher.actions.Question" method="addquestionFromBank">
+	<result name="success">/addquestion.jsp</result>
+	<result name="fail">/addtest.jsp</result>
+	</action>
+	<action name="submitTest" class="com.classmarker.teacher.actions.Question" method="execute">
+	<result name="success">/teacherlanding.jsp</result>
+	<result name="fail">/addtest.jsp</result>
+	</action>
+	<action name="teacherresult" class="com.classmarker.teacher.actions.TeacherResult" method="fetch">
+	<result name="success">/teacherresult.jsp</result>
+	<result name="fail">/teacherlanding.jsp</result>
+	</action>
+	</package>
+	</struts>

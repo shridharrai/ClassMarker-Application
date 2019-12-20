@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+ 
+<package name="admin" namespace="/" extends="struts-default">
+<action name="home" class="com.classmarker.admin.actions.Firsttime" method="execute">
+	<result name="success">/index.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="firstlogin" class="com.classmarker.admin.actions.Firsttime" method="firstlogin">
+	<result name="success">/firstpwd.jsp</result>
+	<result name="startupfail">/login.jsp</result>
+	<result name="partialfail">/index.jsp</result>
+	<result name="fail">/index.jsp</result>
+	</action>
+	<action name="pwdchange" class="com.classmarker.admin.actions.Firstupdatepwd" method="firstupdatepwd">
+	<result name="success">/login.jsp</result>
+	<result name="fail">/firstpwd.jsp</result>
+	</action>
+	<action name="showsemesterbranch" class="com.classmarker.admin.actions.Subject" method="fetchbranchsem">
+	<result name="success">/subject.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="showsubject" class="com.classmarker.admin.actions.Subject" method="execute">
+	<result name="success">/subject.jsp</result>
+	<result name="fail">/subject.jsp</result>
+	</action>
+	<action name="addsubject" class="com.classmarker.admin.actions.Subject" method="addsubject">
+	<result name="success">/subject.jsp</result>
+	<result name="fail">/subject.jsp</result>
+	</action>
+	<action name="addsem" class="com.classmarker.admin.actions.Semester" method="addsem">
+	<result name="success">/semester.jsp</result>
+	<result name="fail">/semester.jsp</result>
+	</action>
+	<action name="showsemester" class="com.classmarker.admin.actions.Semester" method="execute">
+	<result name="success">/semester.jsp</result>
+	<result name="fail">/semester.jsp</result>
+	</action>
+	<action name="addbranch" class="com.classmarker.admin.actions.Branch" method="addbranch">
+	<result name="success">/branch.jsp</result>
+	<result name="fail">/branch.jsp</result>
+	</action>
+	<action name="showbranch" class="com.classmarker.admin.actions.Branch" method="execute">
+	<result name="success">/branch.jsp</result>
+	<result name="fail">/branch.jsp</result>
+	</action>
+	<action name="showright" class="com.classmarker.admin.actions.Role" method="fetchright">
+	<result name="success">/role.jsp</result>
+	<result name="fail">/dashboard.jsp</result>
+	</action> 
+	
+	<action name="addrole" class="com.classmarker.admin.actions.Role" method="addrole">
+	<result name="success">/role.jsp</result>
+	<result name="fail">/role.jsp</result>
+	</action>	
+	
+	<action name="showrole" class="com.classmarker.admin.actions.Role" method="fetchroles">
+	<result name="success">/role.jsp</result>
+	<result name="fail">/role.jsp</result>
+	</action>
+	
+	<action name="adminlanding" class="com.classmarker.admin.actions.LandingAdmin" method="fetch">
+	<result name="success">/adminlanding.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	</package>
+	</struts>
