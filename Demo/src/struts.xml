@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+	<struts>
+	<constant name="struts.devMode" value="true" />
+	<include file="admin.xml"></include>
+	<include file="teacher.xml"></include>
+	<include file="student.xml"></include>
+	<package name="default" namespace="/" extends="struts-default">
+	<action name="login" class="com.classmarker.actions.Login" method="doLogin">
+	<result name="admin">/adminlanding.jsp</result>
+	<result name="teacher">/teacherlanding.jsp</result>
+	<result name="student">/studentlanding.jsp</result>
+	<result name="fail">/login.jsp</result>
+	</action>
+	<action name="showprofile" class="com.classmarker.actions.Profile" method="fetchprofile">
+	<result name="success">/profile.jsp</result>
+	<result name="fail">/dashboard.jsp</result>
+	</action>
+	</package>
+	</struts>
