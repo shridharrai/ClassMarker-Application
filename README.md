@@ -16,3 +16,6 @@ add Role
 
 add Semester
 ![addSemester](https://user-images.githubusercontent.com/50835817/71300811-62689180-23be-11ea-958d-67322918c717.PNG)
+
+add Subject
+![addSubject](https://user-images.githubusercontent.com/50835817/71300826-8deb7c00-23be-11ea-94a1-aa30462eaa4a.PNG)
