@@ -34,3 +34,6 @@ View Result
 
 StudentLanding
 ![studentLanding](https://user-images.githubusercontent.com/50835817/71300939-b1fb8d00-23bf-11ea-87b4-50b0f6339fc5.PNG)
+
+View Test
+![viewTest](https://user-images.githubusercontent.com/50835817/71300969-e8d1a300-23bf-11ea-98d4-e7e5678310fd.PNG)
