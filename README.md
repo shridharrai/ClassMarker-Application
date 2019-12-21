@@ -13,3 +13,6 @@ add Branch
 
 add Role
 ![addRole](https://user-images.githubusercontent.com/50835817/71300782-246b6d80-23be-11ea-96cb-4e3c28750b66.PNG)
+
+add Semester
+![addSemester](https://user-images.githubusercontent.com/50835817/71300811-62689180-23be-11ea-958d-67322918c717.PNG)
