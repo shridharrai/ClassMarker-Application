@@ -31,3 +31,6 @@ add Test
 
 View Result
 ![viewResult](https://user-images.githubusercontent.com/50835817/71300901-76f95980-23bf-11ea-9af6-a299e6a5ac9b.PNG)
+
+StudentLanding
+![studentLanding](https://user-images.githubusercontent.com/50835817/71300939-b1fb8d00-23bf-11ea-87b4-50b0f6339fc5.PNG)
