@@ -4,3 +4,6 @@ It is a test-engine application in which there are three users admin, teacher an
 
 Login
 ![login](https://user-images.githubusercontent.com/50835817/71300678-1a953a80-23bd-11ea-957f-ac29fe3d6a70.PNG)
+
+admin
+![admin](https://user-images.githubusercontent.com/50835817/71300737-ad35d980-23bd-11ea-9932-a26cc9999801.PNG)
