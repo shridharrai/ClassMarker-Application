@@ -29,3 +29,5 @@ Create Group
 add Test
 ![addTest](https://user-images.githubusercontent.com/50835817/71300882-40bbda00-23bf-11ea-84e6-f05e7a95dd5a.PNG)
 
+View Result
+![viewResult](https://user-images.githubusercontent.com/50835817/71300901-76f95980-23bf-11ea-9af6-a299e6a5ac9b.PNG)
