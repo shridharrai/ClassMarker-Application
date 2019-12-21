@@ -7,3 +7,6 @@ Login
 
 admin
 ![admin](https://user-images.githubusercontent.com/50835817/71300737-ad35d980-23bd-11ea-9932-a26cc9999801.PNG)
+
+add Branch
+![addBranch](https://user-images.githubusercontent.com/50835817/71300766-f554fc00-23bd-11ea-9614-23a13f802b8d.PNG)
