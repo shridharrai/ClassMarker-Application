@@ -26,3 +26,6 @@ TeacherLanding
 Create Group
 ![createGroup](https://user-images.githubusercontent.com/50835817/71300865-0fdba500-23bf-11ea-93ba-468f6f3c3e1e.PNG)
 
+add Test
+![addTest](https://user-images.githubusercontent.com/50835817/71300882-40bbda00-23bf-11ea-84e6-f05e7a95dd5a.PNG)
+
