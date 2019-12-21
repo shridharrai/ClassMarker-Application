@@ -23,3 +23,6 @@ add Subject
 TeacherLanding
 ![teacherLanding](https://user-images.githubusercontent.com/50835817/71300850-cb500980-23be-11ea-98cf-4c1be1a67cf3.PNG)
 
+Create Group
+![createGroup](https://user-images.githubusercontent.com/50835817/71300865-0fdba500-23bf-11ea-93ba-468f6f3c3e1e.PNG)
+
