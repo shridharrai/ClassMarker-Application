@@ -10,3 +10,6 @@ admin
 
 add Branch
 ![addBranch](https://user-images.githubusercontent.com/50835817/71300766-f554fc00-23bd-11ea-9614-23a13f802b8d.PNG)
+
+add Role
+![addRole](https://user-images.githubusercontent.com/50835817/71300782-246b6d80-23be-11ea-96cb-4e3c28750b66.PNG)
