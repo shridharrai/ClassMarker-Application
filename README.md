@@ -19,3 +19,7 @@ add Semester
 
 add Subject
 ![addSubject](https://user-images.githubusercontent.com/50835817/71300826-8deb7c00-23be-11ea-94a1-aa30462eaa4a.PNG)
+
+TeacherLanding
+![teacherLanding](https://user-images.githubusercontent.com/50835817/71300850-cb500980-23be-11ea-98cf-4c1be1a67cf3.PNG)
+
